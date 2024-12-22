@@ -25,8 +25,11 @@
 }
 .para{
     margin-left:20px;
-    
-
+}
+.name-design{
+    font-weight:bold;
+    font-size:17px;
+    color:red
 }
 .btn{
     margin:8px;
@@ -98,5 +101,8 @@
     }
     .sub-foot{
         margin-left:20px;
+    }
+    .name-design{
+       font-size:12px;
     }
 }
