@@ -1,0 +1,116 @@
+.form-group{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    border:2px solid red;
+    width:400px;
+    height:600px;
+    margin:auto;
+}
+
+.label{
+    font-weight:bold;
+}
+.log{
+    height:45px;
+    width:300px;
+    display:block;
+    margin-top:10px;
+    border:1px solid red;
+}
+.log:focus{
+    border-color:red !important;
+}
+.btn{
+    width:300px;
+    height:42px;
+    background-color:red;
+    color:white;
+    font-size:18px;
+    font-family:'Courier New', Courier, monospace;
+    border:none;
+    font-weight:bold;
+    cursor:pointer;
+}
+.btn:hover{
+    background-color:#e60000;
+}
+.para{
+    margin-left:15px;
+}
+.signup{
+    margin-left:5px;
+    text-decoration:none;
+    color:black;
+}
+.btn-container{
+    display:flex;
+    border:1px solid black;
+    width:300px;
+    height:42px;
+    padding:10px 10px 10px 10px;
+    border-radius:10px 12px;
+    margin-bottom:9px;
+    
+   
+
+}
+
+.btn-container:hover{
+    background-color: rgb(238, 230, 230);
+}
+
+.form-image{
+    height:25px;
+    width:25px;
+    margin:13px 0px 0px 15px;
+}
+
+.linking{
+    text-decoration:none;
+    color:black;
+}
+.btn1{
+    font-size:18px;
+    margin:16px 0px 0px 18px;
+    text-decoration:none;
+    color:black;
+}
+.End{
+    display:flex;
+    margin-top:5px;
+
+}
+.end{
+    text-decoration:none;
+    color:red;
+   
+}
+
+/*media queries for login form*/
+
+@media screen and (max-width:768px){
+    .form-group{
+        width:400px;
+        height:600px;
+        margin:auto;
+    }
+    .log{
+       
+        width:180px;
+        margin-left:-44%;
+        height:30px;
+       
+    }
+    .btn{
+        width:180px;
+        margin-left:-44%;
+        height:30px;
+    }
+
+    .btn:hover{
+        background-color:#e60000;
+    }
+    
+}
