@@ -90,7 +90,7 @@
 
 /*media queries for login form*/
 
-@media screen and (max-width:768px){
+/*@media screen and (max-width:768px){
     .form-group{
         width:400px;
         height:600px;
@@ -113,4 +113,4 @@
         background-color:#e60000;
     }
     
-}
+}*/
